@@ -1,15 +1,15 @@
-﻿Module Ctl_Common
+﻿Imports System.Collections.Generic
+Imports System.ComponentModel
+Imports System.Drawing
+Imports System.Data
+Imports System.Linq
+Imports System.Text
+Imports System.Threading.Tasks
+Imports System.Windows.Forms
+Imports FSUIPC
+Imports System.Diagnostics
 
-    Imports System.Collections.Generic
-    Imports System.ComponentModel
-    Imports System.Drawing
-    Imports System.Data
-    Imports System.Linq
-    Imports System.Text
-    Imports System.Threading.Tasks
-    Imports System.Windows.Forms
-    Imports FSUIPC
-    Imports System.Diagnostics
+Module Ctl_Common
 
     Partial Public Class ctlExample
         Inherits UserControl
